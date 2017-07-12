@@ -1,0 +1,5 @@
+{% if question.choice_set.results %}
+  <h2>{{ question.choice_set.results }}</h2>
+{% else %}
+  <p>No results are available</p>
+{% endif %}
